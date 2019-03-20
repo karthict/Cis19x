@@ -21,17 +21,47 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <TextView
-        android:id="@+id/textView2"
+    <EditText
+        android:id="@+id/et_findclass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Class ID" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_create"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Create New Study Group" />
+
+    <EditText
+        android:id="@+id/et_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Study Group ID" />
+
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join Study Group" />
+
+    <EditText
+        android:id="@+id/et_leave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Study Group ID" />
+
+    <Button
+        android:id="@+id/btn_leave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leave Study Group" />
 
     <include layout="@layout/content_activity__karthic" />
 
